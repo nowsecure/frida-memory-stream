@@ -1,5 +1,5 @@
 {
-  "name": "@viaforensics/frida-memory-stream",
+  "name": "frida-memory-stream",
   "version": "1.0.0",
   "description": "Create a stream from one or more memory regions",
   "main": "index.js",
@@ -17,12 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viaforensics/frida-memory-stream.git"
+    "url": "git+https://github.com/nowsecure/frida-memory-stream.git"
   },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/viaforensics/frida-memory-stream/issues"
+    "url": "https://github.com/nowsecure/frida-memory-stream/issues"
   },
-  "homepage": "https://github.com/viaforensics/frida-memory-stream#readme",
+  "homepage": "https://github.com/nowsecure/frida-memory-stream#readme",
   "dependencies": {
     "stream": "0.0.2"
   }
