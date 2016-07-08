@@ -23,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/nowsecure/frida-memory-stream/issues"
   },
-  "homepage": "https://github.com/nowsecure/frida-memory-stream#readme",
-  "dependencies": {
-    "stream": "0.0.2"
-  }
+  "homepage": "https://github.com/nowsecure/frida-memory-stream#readme"
 }
