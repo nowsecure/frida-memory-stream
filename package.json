@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "Create a stream from one or more memory regions",
   "main": "index.js",
+  "files": [
+    "/index.js"
+  ],
   "browserify": {
     "transform": [
       [
