@@ -7,6 +7,6 @@ Create a stream from one or more memory regions.
 ```js
 const memoryStream = require('frida-memory-stream');
 
-const m = Process.enumerateModulesSync()[0];
+const m = Process.enumerateModules()[0];
 memoryStream(m.base, m.size).pipe(networkStream);
 ```
