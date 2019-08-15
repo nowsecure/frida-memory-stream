@@ -36,7 +36,7 @@ class Source extends stream.Readable {
 
       let chunk;
       try {
-        chunk = Memory.readByteArray(address, n);
+        chunk = address.readByteArray(n);
       } catch (e) {
         this.emit('error', e);
         this.push(null);
