@@ -1,6 +1,6 @@
-const stream = require('stream');
+import { Readable } from 'stream';
 
-class Source extends stream.Readable {
+class MemoryStream extends Readable {
   constructor(ranges) {
     super({
       highWaterMark: 4 * 1024 * 1024
@@ -48,9 +48,9 @@ class Source extends stream.Readable {
   }
 }
 
-module.exports = (value, size) => {
+export default function make(value, size) {
   if (value instanceof NativePointer)
-    return new Source([[value, size]]);
+    return new MemoryStream([[value, size]]);
   else
-    return new Source(value);
-};
+    return new MemoryStream(value);
+}
