@@ -1,6 +1,6 @@
 {
   "name": "frida-memory-stream",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "Create a stream from one or more memory regions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
